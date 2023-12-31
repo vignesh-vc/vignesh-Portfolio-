@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+i{
+    
+    color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    box-shadow: 0px 5px 8px rgba(0,0,0,.5);
+
+}
+.nav-link{
+    color: white !important;
+    
+    border-bottom: 1px solid transparent;
+
+}
+.nav-link:hover{
+    cursor: pointer;
+    border-bottom: 1px solid pink;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: yellow;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(img/Home\ image.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+#home p{
+    color:white;
+position: absolute;
+top: 50%;
+font-size: 40px;
+opacity: 0;
+animation: text 3s ease-in-out;
+}
+#home p:nth-child(1){
+    animation-delay: 0s;
+}
+
+
+#home p:nth-child(2){
+    animation-delay: 3s;
+}
+
+#home p:nth-child(3){
+    animation-delay: 6s;
+}
+
+#home span{
+    color: pink;
+}
+.social{
+    font-size: 30px;
+    padding-top: 290px;
+    padding-left: 900px; 
+}
+
+@keyframes text{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.about{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.about img{
+
+padding-left: 200px;
+}
+
+#about i{
+    padding-left: 10px;
+}
+#skills{
+    background: linear-gradient(70deg,rgba(240, 162, 220, 0.4),rgba(153, 152, 152, 0.4));
+
+}
+.carousel{
+    box-shadow: 10px 20px 10px rgba(0,0,0,.4);
+}
+#projects{
+    background: linear-gradient(70deg,rgba(240, 162, 220, 0.4),rgba(153, 152, 152, 0.4));
+}
+#pricing{
+    background: linear-gradient(70deg,rgba(240, 162, 220, 0.4),rgba(153, 152, 152, 0.4));
+}
+#card{
+    box-shadow: 13px 20px 10px rgba(0,0,0,.4);
+}
+
+#card:hover{
+    cursor: pointer;
+    box-shadow: 13px 20px 10px rgba(185, 75, 75, 0.4);
+    transition: 2s;
+}
+#contact form{
+    background: linear-gradient(70deg,rgba(240, 162, 220, 0.4),rgba(153, 152, 152, 0.4));
+    border-radius: 1.5%;
+   
+  
+}
+#contact{
+    background: linear-gradient(70deg,rgba(240, 162, 220, 0.4),rgba(153, 152, 152, 0.4));
+}
+#contact iframe{
+    margin-top:100px ;
+    margin-left: 40px;
+}
+
+.footer{
+    margin-top: 40px;
+
+}
+i{
+    color:black;
+    padding-right: 20px;
+}
+.card-header{
+    background: linear-gradient(70deg,rgba(240, 162, 220, 0.4),rgba(153, 152, 152, 0.4));
+
+
+}
+.card-body{
+    background: linear-gradient(70deg,rgba(240, 162, 220, 0.4),rgba(153, 152, 152, 0.4));
+
+
+}
+
+.card-body i{
+    padding-left:8px;
+}
+
